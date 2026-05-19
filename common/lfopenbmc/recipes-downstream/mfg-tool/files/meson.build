@@ -49,6 +49,7 @@ executable(
   'cmd/valve-control.cpp',
   'cmd/valve-state.cpp',
   'cmd/version-display.cpp',
+  'cmd/hello_mmc.cpp',
   'utils/json.cpp',
   'utils/mapper.cpp',
   'utils/redfish-registry.cpp',
