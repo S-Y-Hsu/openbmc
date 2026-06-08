@@ -1,0 +1,10 @@
+[Unit]
+Description=Facebook MFG Peak Voltage Tracker
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/mfg-peak-tracker
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
